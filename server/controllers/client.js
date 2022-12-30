@@ -1,8 +1,8 @@
 import Product from "../models/Product.js";
 import ProductStat from "../models/ProductStat.js";
 import Transaction from "../models/Transactions.js";
-import User from "../models/User.js"
-import getCountryIso3 from "country-iso-2-to-3"
+import User from "../models/User.js";
+import getCountryIso3 from "country-iso-2-to-3";
 // PRODUCTS
 
 export const getProducts = async (req,res) => {
